@@ -1,0 +1,25 @@
+{
+    "name": "simple_bala2/hellow2",
+    "description": "A simple example package",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Simple\\Hellow\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "balachandran-65",
+            "email": "balachandran654321@gmail.com"
+        }
+    ],
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Simple\\Hellow\\HellowServiceProvider"
+            ]
+        }
+    },
+    "require": {}
+}
